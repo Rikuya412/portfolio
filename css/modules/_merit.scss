@@ -301,26 +301,38 @@ start---------------------------------------------------------------------------
 
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
 start----------------------------------------------------------------------------*/
-.thumb-wrapper {
-    display: flex;
-    gap: 10px;
-    line-height: 0;
+@media screen and (max-width: 767px) {
+    .merit {
+      padding: 50px 0;
   
-    .thumb,
-    .bg-video {
-      width: 50%;
-      height: auto;
-      aspect-ratio: 16 / 9; // 画像と動画を同じ比率で表示
-      overflow: hidden;
-      position: relative;
-    }
+      .container {
+        .box {
+          .thumb-wrapper {
+            display: flex;
+            gap: 10px;
+            flex-wrap: nowrap;
+            line-height: 0;
   
-    .thumb img,
-    .bg-video video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
+            > div {
+              width: 50%;
+              aspect-ratio: 16 / 9;
+              position: relative;
+              overflow: hidden;
+            }
+  
+            img,
+            video {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
+        }
+      }
     }
   }
   
