@@ -2207,82 +2207,23 @@ start---------------------------------------------------------------------------
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
 start----------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) {
-  .merit {
-    padding: 50px 0 50px 0;
+  .thumb-wrapper {
+    display: block !important;
   }
-  .merit .container .title h3 .catch {
-    letter-spacing: 4px;
-    font-size: 9.25vw;
-  }
-  .merit .container .title h2 {
-    margin: 10px 0 0 0;
-  }
-  .merit .container .title h2 .catch {
-    line-height: 1.8;
-    font-size: 6vw;
-  }
-  .merit .container .box-wrapper {
-    padding: 10px 0 0 0;
-  }
-  .merit .container .box-wrapper .box {
-    margin: 50px 0 0 0;
-  }
-  .merit .container .box-wrapper .box .thumb-wrapper {
-    display: block;
-  }
-  .merit .container .box-wrapper .box .thumb-wrapper .thumb {
-    width: 100%;
+  .thumb,
+  .bg-video {
+    width: 100% !important;
     height: 200px;
   }
-  .merit .container .box-wrapper .box .thumb-wrapper .thumb img {
+  .thumb img,
+  .bg-video video {
+    width: 100%;
+    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  .merit .container .box-wrapper .box .text {
-    max-width: 100%;
-    margin: 0 auto 0;
-  }
-  .merit .container .box-wrapper .box .text .back {
-    left: 0;
-    top: 0;
-  }
-  .merit .container .box-wrapper .box .text .back p {
-    line-height: 1;
-    opacity: 0.4;
-    letter-spacing: 2vw;
-    font-size: 14vw;
-  }
-  .merit .container .box-wrapper .box .text .inset {
-    margin: 0 auto 0;
-    padding: 15vw 5% 0 5%;
-  }
-  .merit .container .box-wrapper .box .text .inset .semi-title {
     display: block;
   }
-  .merit .container .box-wrapper .box .text .inset .semi-title .number {
-    line-height: 1;
-    top: 3px;
-    font-size: 6vw;
-  }
-  .merit .container .box-wrapper .box .text .inset .semi-title h3 {
-    padding: 10px 0 0 0;
-  }
-  .merit .container .box-wrapper .box .text .inset .semi-title h3 .catch {
-    line-height: 1.5;
-    letter-spacing: 2px;
-    font-size: 7vw;
-  }
-  .merit .container .box-wrapper .box .text .inset .sentence {
-    margin: 40px 0 0 10%;
-  }
-  .merit .container .box-wrapper .box .text .inset .sentence p {
-    line-height: 2;
-    font-size: 4vw;
-    padding: 10px 0 10px 0;
-  }
-} /* 767px responsive-closed */
+}
 /*end ----------------------------------------------------------------------------
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
 **********************************************************************************/
