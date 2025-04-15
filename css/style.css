@@ -1015,8 +1015,8 @@ start---------------------------------------------------------------------------
   }
   .service .container .mark-wrapper ul li {
     position: relative;
-    width: 32vw;
-    height: 32vw;
+    width: 37vw;
+    height: 37vw;
     margin: 0 2vw 0 0;
   }
   .service .container .mark-wrapper ul li::after {
@@ -1026,15 +1026,15 @@ start---------------------------------------------------------------------------
     height: 100%;
   }
   .service .container .mark-wrapper ul li p {
-    font-size: 4vw;
+    font-size: 3vw;
   }
-  .service .container .mark-wrapper ul li.cg {
+  .service .container .mark-wrapper ul li.Available {
     width: 20vw;
   }
-  .service .container .mark-wrapper ul li.cg p {
-    font-size: 10vw;
+  .service .container .mark-wrapper ul li.Available p {
+    font-size: 4vw;
   }
-  .service .container .mark-wrapper ul li.cg::after {
+  .service .container .mark-wrapper ul li.Available::after {
     display: none;
   }
   .service .container .mark-wrapper ul li:last-child {
@@ -1049,7 +1049,7 @@ start---------------------------------------------------------------------------
   }
   .service .container .text h2 .catch {
     text-align: center;
-    font-size: 7.25vw;
+    font-size: 7vw;
   }
   .service .container .text .sentence {
     margin: 15px 0 0 0;
@@ -1057,7 +1057,7 @@ start---------------------------------------------------------------------------
   .service .container .text .sentence p {
     line-height: 2;
     letter-spacing: 1px;
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 20px 0 20px 0;
   }
 } /* 767px responsive-closed */

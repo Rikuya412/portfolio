@@ -410,8 +410,8 @@ start---------------------------------------------------------------------------
                     margin: 20px 0 0 0;
                     li {
                         position: relative;
-                        width: 32vw;
-                        height: 32vw;
+                        width: 37vw;
+                        height: 37vw;
                         margin: 0 2vw 0 0;
                         &::after {
                             left: 0;
@@ -420,12 +420,12 @@ start---------------------------------------------------------------------------
                             height: 100%;
                         }
                         p {
-                            font-size: 4vw;
+                            font-size: 3vw;
                         }
-                        &.cg {
+                        &.Available {
                             width: 20vw;
                             p {
-                                font-size: 10vw;
+                                font-size: 4vw;
                             }
                             &::after {
                                 display: none;
@@ -446,7 +446,7 @@ start---------------------------------------------------------------------------
                 h2 {
                     .catch {
                         text-align: center;
-                        font-size: 7.25vw;
+                        font-size: 7vw;
                     }
                 }
                 .sentence {
@@ -454,7 +454,7 @@ start---------------------------------------------------------------------------
                     p {
                         line-height: 2.0;
                         letter-spacing: 1px;
-                        font-size: 4vw;
+                        font-size: 3vw;
                         padding: 20px 0 20px 0;
                     }
                 }
