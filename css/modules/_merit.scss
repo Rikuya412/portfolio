@@ -320,22 +320,25 @@ start---------------------------------------------------------------------------
                     }
                 }
             }
-            .box-wrapper {
-                padding: 10px 0 0 0;
-                .box {
-                    margin: 50px 0 0 0;
-                    .thumb-wrapper {
-                        display: block;
-                        .thumb {
-                            width: 100%;
-                            height: 200px;
-                            img {
-                                object-fit: cover;
-                                width: 100%;
-                                height: 100%;
-                            }
-                        }
-                    }
+            .thumb-wrapper {
+                display: flex;
+                gap: 10px; // 必要なら余白調整
+                line-height: 0;
+                .box,
+                .thumb,
+                .bg-video {
+                  width: 50%;
+                  height: 450px;
+                  position: relative;
+              
+                  img,
+                  video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                  }
+                
                     .text {
                         max-width: 100%;
                         margin: 0 auto 0;
