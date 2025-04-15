@@ -410,8 +410,8 @@ start---------------------------------------------------------------------------
                     margin: 20px 0 0 0;
                     li {
                         position: relative;
-                        width: 37vw;
-                        height: 37vw;
+                        width: 36vw;
+                        height: 36vw;
                         margin: 0 2vw 0 0;
                         &::after {
                             left: 0;
@@ -421,6 +421,9 @@ start---------------------------------------------------------------------------
                         }
                         p {
                             font-size: 3vw;
+                        }
+                        span{
+                            font-size: 1.5vw;
                         }
                         &.Available {
                             width: 20vw;

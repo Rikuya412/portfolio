@@ -1015,8 +1015,8 @@ start---------------------------------------------------------------------------
   }
   .service .container .mark-wrapper ul li {
     position: relative;
-    width: 37vw;
-    height: 37vw;
+    width: 36vw;
+    height: 36vw;
     margin: 0 2vw 0 0;
   }
   .service .container .mark-wrapper ul li::after {
@@ -1027,6 +1027,9 @@ start---------------------------------------------------------------------------
   }
   .service .container .mark-wrapper ul li p {
     font-size: 3vw;
+  }
+  .service .container .mark-wrapper ul li span {
+    font-size: 1.5vw;
   }
   .service .container .mark-wrapper ul li.Available {
     width: 20vw;
@@ -2209,6 +2212,81 @@ start---------------------------------------------------------------------------
 @media screen and (max-width: 767px) {
   .merit .thumb-wrapper {
     display: block !important;
+  }
+  .merit {
+    padding: 50px 0 50px 0;
+  }
+  .merit .container .title h3 .catch {
+    letter-spacing: 4px;
+    font-size: 9.25vw;
+  }
+  .merit .container .title h2 {
+    margin: 10px 0 0 0;
+  }
+  .merit .container .title h2 .catch {
+    line-height: 1.8;
+    font-size: 6vw;
+  }
+  .box-wrapper {
+    padding: 10px 0 0 0;
+  }
+  .box-wrapper .box {
+    margin: 50px 0 0 0;
+  }
+  .box-wrapper .box .thumb-wrapper {
+    display: block;
+  }
+  .box-wrapper .box .thumb-wrapper .thumb {
+    width: 100%;
+    height: 200px;
+  }
+  .box-wrapper .box .thumb-wrapper .thumb img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .box-wrapper .box .text {
+    max-width: 100%;
+    margin: 0 auto 0;
+  }
+  .box-wrapper .box .text .back {
+    left: 0;
+    top: 0;
+  }
+  .box-wrapper .box .text .back p {
+    line-height: 1;
+    opacity: 0.4;
+    letter-spacing: 2vw;
+    font-size: 14vw;
+  }
+  .box-wrapper .box .text .inset {
+    margin: 0 auto 0;
+    padding: 15vw 5% 0 5%;
+  }
+  .box-wrapper .box .text .inset .semi-title {
+    display: block;
+  }
+  .box-wrapper .box .text .inset .semi-title .number {
+    line-height: 1;
+    top: 3px;
+    font-size: 6vw;
+  }
+  .box-wrapper .box .text .inset .semi-title h3 {
+    padding: 10px 0 0 0;
+  }
+  .box-wrapper .box .text .inset .semi-title h3 .catch {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 7vw;
+  }
+  .box-wrapper .box .text .inset .sentence {
+    margin: 40px 0 0 10%;
+  }
+  .box-wrapper .box .text .inset .sentence p {
+    line-height: 2;
+    font-size: 4vw;
+    padding: 10px 0 10px 0;
   }
   .merit .thumb,
   .merit .bg-video {
